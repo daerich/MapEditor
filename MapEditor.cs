@@ -1140,7 +1140,7 @@ namespace MapEditor
             }
             World.RenderingCamera = _mainCamera;
 
-	        var res = UIMenu.GetScreenResolutionMantainRatio();
+	        var res = UIMenu.GetScreenResolutionMaintainRatio();
 			var safe = UIMenu.GetSafezoneBounds();
 
 			if (_settings.PropCounterDisplay)
