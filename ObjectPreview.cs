@@ -14,7 +14,7 @@ namespace MapEditor
         public static Model LoadObject(int hash)
         {
             int counter = 0;
-            var res = UIMenu.GetScreenResolutionMantainRatio();
+            var res = UIMenu.GetScreenResolutionMaintainRatio();
             
             var m = new Model(hash);
 
